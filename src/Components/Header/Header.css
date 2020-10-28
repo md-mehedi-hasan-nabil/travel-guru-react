@@ -1,0 +1,55 @@
+.navbar {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(51, 51, 51, 0.7);
+}
+
+.form-control::placeholder {
+    color: #000000;
+}
+
+#textColor::placeholder {
+    color: #ffffff !important;
+}
+
+.container-fluid {
+    color: #ffffff;
+    background:  url(../../Image/Rectangle_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 100vh;
+}
+
+.container-fluid::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(51, 51, 51, 0.85);
+}
+
+.active img{
+    border: 4px solid #f1c40f;
+    border-radius: 23px;
+    transition: 0.2s;
+}
+
+button.btn.mx-4 {
+    background-color: #f1c40f;
+    padding: 5px 30px;
+}
+
+.row .col .btn {
+    background-color: #f1c40f;
+    padding: 8px 30px;
+}
+
+.logo {
+    width: 80px;
+    background-color: #FFFFFF;
+    padding: 5px;
+    border-radius: 5px;
+}

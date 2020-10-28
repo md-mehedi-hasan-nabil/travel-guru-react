@@ -1,0 +1,43 @@
+.signInBtn {
+    width: 100%;
+    margin: 5px 0;
+    border-radius: 20px;
+}
+
+.signInBtn {
+    position: relative;
+}
+
+.signInBtn img {
+    width: 25px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 2px;
+    transform: translate(2px, -50%);
+}
+
+.option {
+    position: relative;
+}
+
+.option::after {
+    content: '';
+    position: absolute;
+    width: 40%;
+    height: 1px;
+    background-color: #333;
+    top: 10px;
+    left: 20px;
+}
+
+.option::before {
+    content: '';
+    position: absolute;
+    width: 40%;
+    height: 1px;
+    background-color: #333;
+    top: 10px;
+    right: 20px;
+}
+

@@ -1,0 +1,7 @@
+.map iframe {
+    border-radius: 10px;
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+    width: 130%;
+}

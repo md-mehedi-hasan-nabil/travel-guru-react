@@ -1,0 +1,13 @@
+#date {
+    width: 172px;
+}
+
+.radius {
+    border-radius: 8px;
+}
+
+.container-fluid .container .row {
+    height: 90vh !important;
+    align-items: center;
+    justify-content: center;
+}
